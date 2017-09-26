@@ -1,7 +1,6 @@
 start
     Declarations
         int price = 0;
-        double finalPrice = 0;
         final int NUMBER_OF_WEEKS = 6;
         final double DISCOUNT_PER_WEEK = 0.12;
         final double MIN_PRICE = 0.99;
