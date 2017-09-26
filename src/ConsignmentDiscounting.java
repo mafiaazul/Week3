@@ -11,7 +11,7 @@ start
     for(int counter = 1; counter <= NUMBER_OF_WEEKS; counter++) 
         if (price <= MIN_PRICE)
             Output "This product can't be discounted!"
-            counter = NUMBER_OF_WEEKS
+            counter = NUMBER_OF_WEEKS + 1
         else if 
             Output "Price week " + counter + ": " + price
             price = price - (price * DISCOUNT_PER_WEEK)
